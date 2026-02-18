@@ -38,6 +38,11 @@
                 "input": "src/assets/pdf/",
                 "output": "/assets/pdf/"
               },
+              {
+                "glob": "**/*",
+                "input": "node_modules/@fortawesome/fontawesome-free/webfonts/",
+                "output": "/webfonts/"
+              },
               "src/favicon.ico"
             ],
             "styles": [
