@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { SharedService } from '@services/shared.service';
 
 @Component({
-  templateUrl: './split-system.component.html'
+  templateUrl: './split-system.component.html',
+  styleUrls: ['./split-system.component.scss']
 })
 export class SplitSystemComponent {
   readonly title = 'Split Systems';
