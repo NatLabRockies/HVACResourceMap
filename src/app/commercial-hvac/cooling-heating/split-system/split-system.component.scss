@@ -1,0 +1,13 @@
+/* Hide image type icons for links in this component's table */
+.table a[href$=".jpg"]::after,
+.table a[href$=".png"]::after,
+.table a[href$=".gif"]::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Center align the image column */
+.table td:last-child {
+  text-align: center;
+  vertical-align: middle;
+}
