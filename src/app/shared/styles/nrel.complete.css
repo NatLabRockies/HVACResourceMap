@@ -2883,10 +2883,10 @@ ul.dropdown-menu {
 }
 
 header .logo {
-  background: url('../../../assets/images/nlr.png') no-repeat center;
-  height: 75px;
+  background: url('../../../assets/images/nlr-logo-horizontal.svg') no-repeat center;
+  height: 60px;
   background-size: contain;
-  margin: 0 0 10px 0;
+  margin: 28px 0 10px 0;
 }
 
 .program-header {
@@ -2909,16 +2909,17 @@ header.notopnav {
 
 @media only screen and (min-width: 480px) {
   header .logo {
-    height: 85px;
+    height: 65px;
     background-size: contain;
-    margin: 0 0 10px 0;
+    margin: 28px 0 10px 0;
   }
 }
 
 @media (min-width: 768px) {
   header .logo {
-    background: url('../../../assets/images/nlr.png') no-repeat left;
-    height: 100px;
+    background: url('../../../assets/images/nlr-logo-horizontal.svg') no-repeat left;
+    height: 60px;
+    margin-top:28px;
     background-size: contain;
   }
 
