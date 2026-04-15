@@ -759,7 +759,7 @@ src/app/commercial-hvac/all-systems/air-water-distribution/commercial-ahu/commer
    41: <p>Refer to the <a href="https://www.aceee.org/files/proceedings/2010/data/papers/1916.pdf">Air Leakage of Furnaces and Air Handlers</a> report from the Lawrence Berkeley National Laboratory for an overview of methodologies used to test the airtightness of AHUs.</p>
    42  
    43: <h2>Energy Efficiency Measures</h2>
-   44: <p>The key components of air handling unit (AHU) design are fans, coils, and filters. Decisions made upfront regarding their design can significantly influence the overall energy use of the AHU during its operating life. Low pressure drop design is crucial, especially for AHUs with long run hours, such as those serving laboratories. Refer to the Labs 21 report on <a href="https://www.nrel.gov/docs/fy05osti/36907.pdf">Low-Pressure-Drop HVAC Design for Laboratories</a> from the U.S. Environmental Protection Agency for more details.</p>
+   44: <p>The key components of air handling unit (AHU) design are fans, coils, and filters. Decisions made upfront regarding their design can significantly influence the overall energy use of the AHU during its operating life. Low pressure drop design is crucial, especially for AHUs with long run hours, such as those serving laboratories. Refer to the Labs 21 report on <a href="https://www.nlr.gov/docs/fy05osti/36907.pdf">Low-Pressure-Drop HVAC Design for Laboratories</a> from the U.S. Environmental Protection Agency for more details.</p>
    45  
    46: <h3>Fans</h3>
    47: <p>Fans should be able to meet airflow and pressure requirements while adhering to the design constraints of space and acoustic requirements. A <a href="https://www1.eere.energy.gov/buildings/publications/pdfs/commercial_initiative/hvac_volume2_final_report.pdf">study by Arthur D. Little for the U.S. Department of Energy</a> estimated the parasitic energy consumption (i.e., the energy required for distributing heating and cooling inside a building, heat rejection, and ventilation) in commercial buildings to be 1.5 quads. Out of total parasitic load, <strong>supply fans consumed 50% of the energy</strong>. Thus, AHU fan selection can have a major impact on overall energy consumption. Details about selecting efficient fans can be found in the <a routerLink="/commercial-hvac/distribution/fans">fans section</a> of this website.</p>
@@ -780,7 +780,7 @@ src/app/commercial-hvac/all-systems/air-water-distribution/commercial-ahu/commer
    62: <p>The first step in efficient filter design is to understand the indoor air quality requirements of the space. If it is a critical application such as an operating room or if it is an owner requirement, high efficiency HEPA filters maybe used. Location of the jobsite also needs to be considered when selecting filters. The pressure drop associated with the filter assembly should be closely evaluated at startup and also at intermediate loading.</p>
    63  
    64: <h2>Operation and Training</h2>
-   65: <p>Periodic evaluation of air handlers is recommended to identify efficiency measures. The evaluation generally consists of a combination of on-site observations and a more detailed testing of air handling unit (AHU) components. The  <a href="https://www.nrel.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> lists a number of measures to save energy in commercial buildings by improving the operational efficiency of AHUs. These measures are summarized below; refer to the <a href="https://www.nrel.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> for more information:</p>
+   65: <p>Periodic evaluation of air handlers is recommended to identify efficiency measures. The evaluation generally consists of a combination of on-site observations and a more detailed testing of air handling unit (AHU) components. The  <a href="https://www.nlr.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> lists a number of measures to save energy in commercial buildings by improving the operational efficiency of AHUs. These measures are summarized below; refer to the <a href="https://www.nlr.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> for more information:</p>
    66  
    67  <ul>
    68:   <li>Verifying proper operation of air dampers </li>
@@ -819,7 +819,7 @@ src/app/commercial-hvac/all-systems/air-water-distribution/commercial-ahu/commer
   101  </ul>
 
   104  <ul>
-  105:   <li><a href="https://www.nrel.gov/docs/gen/fy11/50134.pdf">General AHU checklist</a>, by NLR </li>
+  105:   <li><a href="https://www.nlr.gov/docs/gen/fy11/50134.pdf">General AHU checklist</a>, by NLR </li>
   106:   <li><a href="https://www.ashrae.org/technical-resources">COVID-19 Resources</a>, ASHRAE</li>
   107:   <li><a href="https://www.ashrae.org/technical-resources/filtration-disinfection">Filtration and Disinfection to support healthy indoor environments</a>, ASHRAE</li>
   108:   <li><a href="https://www.energy.gov/sites/prod/files/2014/12/f19/ba_innovations_2014_hvac_airleakage.pdf">HVAC Cabinet Air Leakage Test Method</a></li>
@@ -1147,9 +1147,9 @@ src/app/commercial-hvac/central-plant/cooling-tower/cooling-tower.component.html
   208  
   209: <p>Alternative water treatment methods can be very effective at saving water and minimizing or eliminating water treatment chemicals. See recent case studies of four technologies that with proven performance:</p>
   210  <ul>
-  211:   <li><a href="https://www.nrel.gov/docs/fy19osti/73911.pdf">Testing and Evaluation of a Chemical-Free Cooling Tower Water Treatment Technology</a></li>
+  211:   <li><a href="https://www.nlr.gov/docs/fy19osti/73911.pdf">Testing and Evaluation of a Chemical-Free Cooling Tower Water Treatment Technology</a></li>
   212:   <li><a href="https://www.gsa.gov/system/files/Applied_Research/038-GPG%20Findings%20Electrochemical%20Water%20Treatment.pdf">Electrochemical water treatment</a></li>
-  213:   <li><a href="https://docs.nrel.gov/docs/fy19osti/72152.pdf">Electrochemical water treatment for Cooling Towers</a></li>
+  213:   <li><a href="https://docs.nlr.gov/docs/fy19osti/72152.pdf">Electrochemical water treatment for Cooling Towers</a></li>
   214:   <li><a href="https://www.gsa.gov/system/files/039-GPG-Findings_AWT-_Advanced_Oxidation_Process_for_Cooling_Towers.pdf">Advanced Oxidation Process for Cooling Towers</a></li>
   215:   <li><a href="https://www.gsa.gov/system/files/040-GPG_Findings_AWT-_Salt-Based_and_Chemical_Inhibition_.pdf">Salt-Based and Chemical Inhibition for Cooling Towers</a></li>
   216  </ul>
@@ -1866,7 +1866,7 @@ src/app/commercial-hvac/cooling-heating/heat-pump/heat-pump.component.html:
   366: <p>To keep a heat pump performing properly it&apos;s important to follow best practices at every stage of its life cycle: prior to purchase, during installation/commissioning, and throughout ongoing operation/maintenance.</p>
   367  
   368  <h2>Prior to Purchase</h2>
-  369: <p>There are many resources to help guide purchasing decisions. <a href="https://www.nrel.gov/docs/fy24osti/87812.pdf">How-To Guide for Heat Pump Systems</a> and Beyond provides a comprehensive look at choosing, installing, and maintaining various thermal systems, including heat pumps.<a href="https://neep.org/sites/default/files/resources/ASHP_buyingguide_5.pdf">NEEP</a> also has an air-source heat pump buying guide. The focus is on residential systems, but some of the subcomponents and concepts are similar for small commercial applications. In general, there are two key best practices to consider at this stage:</p>
+  369: <p>There are many resources to help guide purchasing decisions. <a href="https://www.nlr.gov/docs/fy24osti/87812.pdf">How-To Guide for Heat Pump Systems</a> and Beyond provides a comprehensive look at choosing, installing, and maintaining various thermal systems, including heat pumps.<a href="https://neep.org/sites/default/files/resources/ASHP_buyingguide_5.pdf">NEEP</a> also has an air-source heat pump buying guide. The focus is on residential systems, but some of the subcomponents and concepts are similar for small commercial applications. In general, there are two key best practices to consider at this stage:</p>
   370  <ul>
   371:   <li><b>System efficiency and performance</b> are among the most important factors, especially when lowering operating costs is a priority. The purchase is the only opportunity to choose a more efficient system. Variable speed systems are typically more efficient as reflected in the rated metrics. They can be drop-in replacements for older, single, or dual-speed systems and are frequently a compelling option when looking for equipment with the lowest life-cycle cost.</li>
   372     <ul>
@@ -1972,8 +1972,8 @@ src/app/commercial-hvac/cooling-heating/heat-pump/heat-pump.component.html:
   474:   <li>Building America Solution Center, Ground-Source Heat Pumps: <a href="https://basc.pnnl.gov/resource-guides/ground-source-heat-pumps">https://basc.pnnl.gov/resource-guides/ground-source-heat-pumps</a></li>
   475:   <li>Building Energy Exchange, Packaged Terminal Heat Pumps: <a href="https://be-exchange.org/wp-content/uploads/2019/05/HPRT_techprimer_PTHPs.pdf">https://be-exchange.org/wp-content/uploads/2019/05/HPRT_techprimer_PTHPs.pdf</a></li>
   476:   <li>ENERGY STAR, Air-Source Heat Pumps: <a href="https://www.energystar.gov/products/air_source_heat_pumps">https://www.energystar.gov/products/air_source_heat_pumps</a></li>
-  477:   <li>NLR, Geothermal Heat Pump Basics: <a href="https://www.nrel.gov/research/re-geo-heat-pumps.html">https://www.nrel.gov/research/re-geo-heat-pumps.html</a></li>
-  478:   <li>NLR, Policymakers&apos; Guidebook for Geothermal Heating and Cooling: <a href="https://www.nrel.gov/docs/fy11osti/49477.pdf">https://www.nrel.gov/docs/fy11osti/49477.pdf</a></li>
+  477:   <li>NLR, Geothermal Heat Pump Basics: <a href="https://www.nlr.gov/research/re-geo-heat-pumps.html">https://www.nlr.gov/research/re-geo-heat-pumps.html</a></li>
+  478:   <li>NLR, Policymakers&apos; Guidebook for Geothermal Heating and Cooling: <a href="https://www.nlr.gov/docs/fy11osti/49477.pdf">https://www.nlr.gov/docs/fy11osti/49477.pdf</a></li>
   479:   <li>ORNL, Generic Guide Specifications for Geothermal Heat Pump System Installation: <a href="https://info.ornl.gov/sites/publications/Files/Pub57541.pdf">https://info.ornl.gov/sites/publications/Files/Pub57541.pdf</a></li>
   480:   <li>Taitem Engineering for NYSERDA, High-Performance Packaged Terminal Heat Pump Market and Development Research Report: <a href="https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Other-Technical-Reports/18-27-PTHP-Market-Development.pdf">https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Other-Technical-Reports/18-27-PTHP-Market-Development.pdf</a></li>
   481:   <li>U.S. Department of Energy, Energy Saver, Air-Source Heat Pumps: <a href="https://www.energy.gov/energysaver/air-source-heat-pumps ">https://www.energy.gov/energysaver/air-source-heat-pumps </a></li>
@@ -2070,13 +2070,13 @@ src/app/commercial-hvac/cooling-heating/packaged-system/packaged-system.componen
    65:             <li><a href="https://www.energy.gov/eere/buildings/hvac-commissioning#:~:text=Commissioning%20is%20the%20process%20of,original%20design%20and%20engineering%20documentation.">HVAC Commissioning</a>, U.S. Department of Energy</li>
    66:             <li><a href="https://ccpia.org/rooftop-unit-rtu-inspection-video/">Rooftop Unit (RTU) Inspection Video</a>, Certified Commercial Property Inspectors Association</li>
    67:             <li><a href="https://www.buildingengines.com/blog/equipment-packaged-rooftop-unit-rtu/">Understanding Your HVAC&mdash;Packaged Rooftop Unit (RTU)</a>, BuildingEngines</li>
-   68:             <li><a href="https://www.nrel.gov/docs/fy24osti/87812.pdf">Decarbonizing Building Thermal Systems</a>. </li>
+   68:             <li><a href="https://www.nlr.gov/docs/fy24osti/87812.pdf">Decarbonizing Building Thermal Systems</a>. </li>
    69          </ul>
    70  
    71:         <p>U.S. Department of Energy Rooftop Unit Initiatives include the:</p>
    72          <ul>
    73:             <li><a href="https://betterbuildingssolutioncenter.energy.gov/accelerators/commercial-building-heat-pump">Commercial Building Heat Pump Accelerator</a>, Better Buildings</li>
-   74:             <li><a href="https://www.nrel.gov/docs/fy21osti/77092.pdf">Long and Winding Road to Higher Efficiency&mdash;The RTU Story</a>, 2020 ACEEE Summer Study</li>
+   74:             <li><a href="https://www.nlr.gov/docs/fy21osti/77092.pdf">Long and Winding Road to Higher Efficiency&mdash;The RTU Story</a>, 2020 ACEEE Summer Study</li>
    75:             <li><a href="https://betterbuildingssolutioncenter.energy.gov/toolkit-upgrade-your-rtu-high-efficiency">Toolkit: Upgrade your RTU to High-Efficiency</a>, Better Buildings.</li>
    76          </ul>
    77  
@@ -2446,7 +2446,7 @@ src/app/commercial-hvac/distribution/ahu/ahu.component.html:
   15  </p>
 
   18  <ul>
-  19:   <li><a href="https://www.nrel.gov/docs/gen/fy11/50134.pdf">General AHU checklist</a>, by NLR </li>
+  19:   <li><a href="https://www.nlr.gov/docs/gen/fy11/50134.pdf">General AHU checklist</a>, by NLR </li>
   20:   <li><a href="https://www.ashrae.org/technical-resources">COVID-19 Resources</a>, ASHRAE</li>
   21:   <li><a href="https://www.ashrae.org/technical-resources/filtration-disinfection">Filtration and Disinfection to support healthy indoor environments</a>, ASHRAE</li>
   22  </ul>
@@ -2543,7 +2543,7 @@ src/app/commercial-hvac/distribution/ahu/codes/codes.component.ts:
 
 src/app/commercial-hvac/distribution/ahu/eems/eems.component.html:
    2  
-   3: <p>The key components of air handling unit (AHU) design are fans, coils, and filters. Decisions made upfront regarding their design can significantly influence the overall energy use of the AHU during its operating life. Low pressure drop design is crucial, especially for AHUs with long run hours, such as those serving laboratories. Refer to the Labs 21 report on <a href="https://www.nrel.gov/docs/fy05osti/36907.pdf">Low-Pressure-Drop HVAC Design for Laboratories</a> from the U.S. Environmental Protection Agency for more details.</p>
+   3: <p>The key components of air handling unit (AHU) design are fans, coils, and filters. Decisions made upfront regarding their design can significantly influence the overall energy use of the AHU during its operating life. Low pressure drop design is crucial, especially for AHUs with long run hours, such as those serving laboratories. Refer to the Labs 21 report on <a href="https://www.nlr.gov/docs/fy05osti/36907.pdf">Low-Pressure-Drop HVAC Design for Laboratories</a> from the U.S. Environmental Protection Agency for more details.</p>
    4  
    5: <h2>Fans</h2>
    6: <p>Fans should be able to meet airflow and pressure requirements while adhering to the design constraints of space and acoustic requirements. A <a href="https://www1.eere.energy.gov/buildings/publications/pdfs/commercial_initiative/hvac_volume2_final_report.pdf">study by Arthur D. Little for the U.S. Department of Energy</a> estimated the parasitic energy consumption (i.e., the energy required for distributing heating and cooling inside a building, heat rejection, and ventilation) in commercial buildings to be 1.5 quads. Out of total parasitic load, <strong>supply fans consumed 50% of the energy</strong>. Thus, AHU fan selection can have a major impact on overall energy consumption. Details about selecting efficient fans can be found in the <a routerLink="/commercial-hvac/distribution/fans">fans section</a> of this website.</p>
@@ -2597,7 +2597,7 @@ src/app/commercial-hvac/distribution/ahu/eems/eems.component.ts:
 
 src/app/commercial-hvac/distribution/ahu/operation/operation.component.html:
    2  
-   3: <p>Periodic evaluation of air handlers is recommended to identify efficiency measures. The evaluation generally consists of a combination of on-site observations and a more detailed testing of air handling unit (AHU) components. The  <a href="https://www.nrel.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a>  lists a number of measures to save energy in commercial buildings by improving the operational efficiency of AHUs. These measures are summarized below; refer to the <a href="https://www.nrel.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> for more information:</p>
+   3: <p>Periodic evaluation of air handlers is recommended to identify efficiency measures. The evaluation generally consists of a combination of on-site observations and a more detailed testing of air handling unit (AHU) components. The  <a href="https://www.nlr.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a>  lists a number of measures to save energy in commercial buildings by improving the operational efficiency of AHUs. These measures are summarized below; refer to the <a href="https://www.nlr.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> for more information:</p>
    4  
    5  <ul>
    6:   <li>Verifying proper operation of air dampers </li>
@@ -2868,7 +2868,7 @@ src/app/commercial-hvac/distribution/ducting/ducting.component.html:
   102        </tr>
 
   108  <ul>
-  109:   <li><a href="https://www.nrel.gov/docs/fy12osti/53352.pdf">Advanced Strategy Guideline: Air Distribution Basics and Duct Design</a>, U.S. Department of Energy</li>
+  109:   <li><a href="https://www.nlr.gov/docs/fy12osti/53352.pdf">Advanced Strategy Guideline: Air Distribution Basics and Duct Design</a>, U.S. Department of Energy</li>
   110:   <li><a href="https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/27630.pdf">Improving the Efficiency of Your Duct System</a>, U.S. Department of Energy</li>
   111:   <li><a href="https://www.energy.gov/energysaver/minimizing-energy-losses-ducts">Minimizing Energy Losses in Ducts</a>, U.S. Department of Energy</li>
   112  </ul>
@@ -3013,7 +3013,7 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   177          </td>
 
   182  
-  183: <p><sup>1</sup><a href="https://www.nrel.gov//docs/fy03osti/29166.pdf">Improving Fan System Performance</a>, U.S. Department of Energy and Air Movement and Control Association, DOE/GO-102003-1294</p>
+  183: <p><sup>1</sup><a href="https://www.nlr.gov//docs/fy03osti/29166.pdf">Improving Fan System Performance</a>, U.S. Department of Energy and Air Movement and Control Association, DOE/GO-102003-1294</p>
   184  
   185  <h3>Drives</h3>
   186: <p>Belt (indirect) driven fans are the most common fan type. They have the advantages of being easily accessible for maintenance, simple to maintain, and easy to adjust to the speed specified in the system design. The main disadvantage is an efficiency loss of 3% to 5% compared to direct drive. Synchronous drive belts can improve system performance by 2%. Direct drive fans can provide higher efficiency and have a simpler design than belt driven fans. However, they may result in increased stress on the motor and bearings, and most applications require a method to control speed, such as a variable frequency drive.</p>
@@ -3096,7 +3096,7 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   264  </ul>
 
   266  <h2>Case Studies</h2>
-  267: <p><a href="https://www.nrel.gov/docs/fy19osti/72476.pdf">Evaluation of High Rotor Pole Switched Reluctance Motors to Control Condenser Fans in a Commercial Refrigeration System</a>, Grant Wheeler, Michael Deru 2019</p>
+  267: <p><a href="https://www.nlr.gov/docs/fy19osti/72476.pdf">Evaluation of High Rotor Pole Switched Reluctance Motors to Control Condenser Fans in a Commercial Refrigeration System</a>, Grant Wheeler, Michael Deru 2019</p>
   268  
   269: <p><a href="https://buildings.honeywell.com/content/dam/hbtbt/en/documents/downloads/67-7252_Case_Study.pdf">Integrating the Village of Boys Town—Making Boys Town Even Better: Efficiency and Energy Savings</a>, Honeywell
   270:   <br>Honeywell added centralized Web-enabled building controls on a 640-acre boys home in Omaha, Nebraska. This project included variable frequency drives with less than a 2-year payback.</p>
@@ -3116,7 +3116,7 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   284  
   285: <p>Maintaining fan systems is described with routine operations and maintenance (O&M) measures and replacement and improvement (RI) measures. The measures are divided across the entire fan system and by major components of control/motor, drive train, fan, and airflow distribution with detailed sections for each component in this document. Table 1 provides the relative evaluations for the effort required, savings potential, payback, and persistence of the efficiency measures.</p>
   286  
-  287: <p>This information is available in the document <a href="https://www.nrel.gov/docs/fy18osti/70566.pdf">Tune-Up Your Fan Systems for Improved Performance</a> (PDF).</p>
+  287: <p>This information is available in the document <a href="https://www.nlr.gov/docs/fy18osti/70566.pdf">Tune-Up Your Fan Systems for Improved Performance</a> (PDF).</p>
   288  
   289: <h3>Table 1. Fan System Maintenance and Improvement Measure Impacts</h3>
   290: <div class="table-responsive mb-5">
@@ -3203,7 +3203,7 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
 
   421  <div class="col-md-6 float-md-right ml-md-5 my-3">
   422:   <blockquote>"Belt inspection is particularly important to the operation of large fans because of the size of the power losses. For example, in a 200-horsepower (hp) fan, a 5 percent decrease in power transmission efficiency results in a 10-hp loss, translating to $3,270 annually for a continuously operating system."</blockquote>
-  423:   <p class="caption"><a href="https://www.nrel.gov/docs/fy03osti/29166.pdf">Improving Fan System Performance,</a> U.S. Department of Energy and Air Movement and Control Association International, Inc., Section 2:3—Basic Maintenance</p>
+  423:   <p class="caption"><a href="https://www.nlr.gov/docs/fy03osti/29166.pdf">Improving Fan System Performance,</a> U.S. Department of Energy and Air Movement and Control Association International, Inc., Section 2:3—Basic Maintenance</p>
   424  </div>
   425  
   426: <h3>Measure Descriptions</h3>
@@ -3440,7 +3440,7 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   677  
   678  <div class="col-md-6 float-md-right ml-md-5 my-3">
   679:   <blockquote>"A U.S. Environmental Protection Agency (EPA) study found that almost 60 percent of building fan systems were oversized by at least 10 percent, with an average oversizing of 60 percent."</blockquote>
-  680:   <p class="caption"><a href="https://www.nrel.gov/docs/fy03osti/29166.pdf">Improving Fan System Performance,</a> U.S. Department of Energy and Air Movement and Control Association International, Inc., Section 2:3—Basic Maintenance</p>
+  680:   <p class="caption"><a href="https://www.nlr.gov/docs/fy03osti/29166.pdf">Improving Fan System Performance,</a> U.S. Department of Energy and Air Movement and Control Association International, Inc., Section 2:3—Basic Maintenance</p>
   681  </div>
   682  
   683: <p>There are times when replacement or improvement of components is the most appropriate option. The options below offer examples of ways to reduce energy costs and improve the operation of fan systems based on a system level (RI 1) and component levels (RI 2-5). The overall goal for replacement/improvement is to improve performance and increase the fan system efficiency.</p>
@@ -3454,7 +3454,7 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   697:           <br>Detailed review of fan systems to reduce inefficiencies (called system effects) can provide significant performance improvements. Improvements may involve replacing components or implementing new controls. Corrections for system effects include rerouting ducts, removing sharp turns, replacing fittings, adding turning vanes, increasing size of fan, etc.
   698          </td>
   699:         <td class="text-center">B-C</td>
-  700:         <td class="text-center"><a href="https://www.amca.org/publish/publications-and-standards/amca-publications/publication-200-95-(r2011)-air-systems.html">AMCA 1995</a>, <a href="https://www.amca.org/publish/publications-and-standards/amca-publications/publication-201-02-(r2011)-fans-and-systems.html">2002</a>, <a href="https://www.amca.org/publish/publications-and-standards/amca-publications/amca-publication-202-17-troubleshooting.html"> 2017</a>; <a href="https://www.nrel.gov/docs/fy03osti/29166.pdf"> DOE 2003</a></td>
+  700:         <td class="text-center"><a href="https://www.amca.org/publish/publications-and-standards/amca-publications/publication-200-95-(r2011)-air-systems.html">AMCA 1995</a>, <a href="https://www.amca.org/publish/publications-and-standards/amca-publications/publication-201-02-(r2011)-fans-and-systems.html">2002</a>, <a href="https://www.amca.org/publish/publications-and-standards/amca-publications/amca-publication-202-17-troubleshooting.html"> 2017</a>; <a href="https://www.nlr.gov/docs/fy03osti/29166.pdf"> DOE 2003</a></td>
   701        </tr>
 
   703          <td>
@@ -3471,7 +3471,7 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   714          </td>
   715:         <td class="text-center">B</td>
   716:         <td class="text-center">
-  717:           <a href="https://www.amca.org/publish/publications-and-standards/amca-publications/amca-publication-202-17-troubleshooting.html">AMCA 2017</a>, <a href="https://www.nrel.gov/docs/fy03osti/29166.pdf">DOE 2003</a>, <a href="https://www.energystar.gov/sites/default/files/buildings/tools/EPA_BUM_Full.pdf">EPA 2008</a>
+  717:           <a href="https://www.amca.org/publish/publications-and-standards/amca-publications/amca-publication-202-17-troubleshooting.html">AMCA 2017</a>, <a href="https://www.nlr.gov/docs/fy03osti/29166.pdf">DOE 2003</a>, <a href="https://www.energystar.gov/sites/default/files/buildings/tools/EPA_BUM_Full.pdf">EPA 2008</a>
   718          </td>
 
   723  
@@ -3526,7 +3526,7 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   785:           Notched belts run cooler, have longer durability, and run with an efficiency of ~97% compared to a peak of 95% for V-belts. Synchronous belts operate at ~98% efficiency over a wider load range, need minimal maintenance and can operate in wet/oily environments. However, they transfer more vibrations, are sometimes noisier than V-belts and less suited for shock-load applications.
   786          </td>
   787:         <td class="text-center">A</td>
-  788:         <td class="text-center"><a href="https://www.energystar.gov/sites/default/files/buildings/tools/EPA_BUM_Full.pdf">EPA 2008</a>, <a href="https://www.nrel.gov/docs/fy14osti/61448.pdf"> GSA 2014</a></td>
+  788:         <td class="text-center"><a href="https://www.energystar.gov/sites/default/files/buildings/tools/EPA_BUM_Full.pdf">EPA 2008</a>, <a href="https://www.nlr.gov/docs/fy14osti/61448.pdf"> GSA 2014</a></td>
   789        </tr>
 
   793  
@@ -3539,7 +3539,7 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   805:           If it is possible to lower the fan speed, substantial reductions in power consumption are possible. Fan power consumption has nearly a cubed relationship to fan speed. For example, reducing the fan speed by 5% equates to almost 15% reduction in fan power. The entire system needs to be analyzed to ensure that no adverse effects occur to airflow and ventilation, before attempting to lower fan speed.
   806          </td>
   807:         <td class="text-center">A-B</td>
-  808:         <td class="text-center"><a href="https://www.nrel.gov/docs/fy03osti/29166.pdf"> DOE 2003</a>, <a href="https://www.energystar.gov/sites/default/files/buildings/tools/EPA_BUM_Full.pdf">EPA 2008</a></td>
+  808:         <td class="text-center"><a href="https://www.nlr.gov/docs/fy03osti/29166.pdf"> DOE 2003</a>, <a href="https://www.energystar.gov/sites/default/files/buildings/tools/EPA_BUM_Full.pdf">EPA 2008</a></td>
   809        </tr>
 
   813  
@@ -3552,14 +3552,14 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   825:           Removing bends in ducting and improving transition ductwork all reduce pressure drop along the airflow path. If the changes are significant, a testing, adjust, and balancing test should be completed to make sure the ventilation system is adjusted for the reduction in pressure.
   826          </td>
   827:         <td class="text-center">B</td>
-  828:         <td class="text-center"><a href="https://www.amca.org/publications-and-standards/publications/publication-201-02-(r2011)-fans-and-systems.html">AMCA 2002</a>, <a href="https://www.ashrae.org/technical-resources/ashrae-handbook/description-2021-ashrae-handbook-fundamentals">ASHRAE 2021,</a> <a href="https://www.nrel.gov/docs/fy03osti/29166.pdf">DOE 2003</a></td>
+  828:         <td class="text-center"><a href="https://www.amca.org/publications-and-standards/publications/publication-201-02-(r2011)-fans-and-systems.html">AMCA 2002</a>, <a href="https://www.ashrae.org/technical-resources/ashrae-handbook/description-2021-ashrae-handbook-fundamentals">ASHRAE 2021,</a> <a href="https://www.nlr.gov/docs/fy03osti/29166.pdf">DOE 2003</a></td>
   829        </tr>
   830        <tr>
   831:         <td><strong>Seal Ductwork</strong><br>
   832:           Duct leakage can result in significant energy waste because the conditioned airflow is not efficiently being distributed. A California study indicated that initial duct leakage of 90 cfm/ton was reduced to 16 cfm/ton by utilizing a commercially available aerosol spray for 300 light commercial buildings. Additionally, circular geometry ductwork may reduce leakage due to the lack of sharp corners.
   833          </td>
   834:         <td class="text-center">A</td>
-  835:         <td class="text-center"><a href="https://www.nrel.gov/docs/fy03osti/29166.pdf">DOE 2003</a>, <a href="https://www.researchgate.net/publication/291572887_Fixing_duct_leaks_in_commercial_buildings">Modera 2005</a>, <a href="https://www1.eere.energy.gov/buildings/publications/pdfs/commercial_initiative/hvac_volume3_final_report.pdf">Roth et. al. 2002</a>.</td>
+  835:         <td class="text-center"><a href="https://www.nlr.gov/docs/fy03osti/29166.pdf">DOE 2003</a>, <a href="https://www.researchgate.net/publication/291572887_Fixing_duct_leaks_in_commercial_buildings">Modera 2005</a>, <a href="https://www1.eere.energy.gov/buildings/publications/pdfs/commercial_initiative/hvac_volume3_final_report.pdf">Roth et. al. 2002</a>.</td>
   836        </tr>
 
   842  <ul>
@@ -3574,15 +3574,15 @@ src/app/commercial-hvac/distribution/fans/fans.component.html:
   851:   <li>Breuker, M. and J. Braun. 1998. <a href="https://www.tandfonline.com/doi/abs/10.1080/10789669.1998.10391406?journalCode=uhvc20">Common Faults and Their Impacts for Rooftop Air Conditioners</a>. HVAC&R Research Vol. 4, No. 3. July 1998. Atlanta, GA: ASHRAE.</li>
   852:   <li>Carrier 2013. <a href="https://www.carrier.com/commercial/en/us/news/news-article/new_carrier_white_paper_highlights_importance_of_fan_selection_in_commercial_applications.html">Application of Fans in Commercial HVAC Equipment</a>. Syracuse, NY: Carrier Corporation. https://www.carrier.com/carrier/en/worldwide/news/news-article/new_carrier_white_paper_highlights_importance_of_fan_selection_in_commercial_applications.html</li>
   853:   <li>Delp, W., E. N. Matson, J. D. Dickerhoff, P. M. Modera. 1997. <a href="https://www.osti.gov/biblio/589246">Field Investigation of Duct System Performance in California Light Commercial Buildings</a>. LBNL-40102. Berkeley, CA: Lawrence Berkeley National Laboratory.</li>
-  854:   <li>DOE 2003. <a href="https://www.nrel.gov/docs/fy03osti/29166.pdf">Improving Fan System Performance, a Sourcebook for Industry</a>. Washington. DC: U.S. Department of Energy.</li>
+  854:   <li>DOE 2003. <a href="https://www.nlr.gov/docs/fy03osti/29166.pdf">Improving Fan System Performance, a Sourcebook for Industry</a>. Washington. DC: U.S. Department of Energy.</li>
   855:   <li>DOE 2013. <a href="https://www.energy.gov/sites/prod/files/2014/02/f8/Motor%20Energy%20Savings%20Potential%20Report%202013-12-4.pdf">Energy Savings Potential and Opportunities for High-Efficiency Electric Motors in Residential and Commercial Equipment</a>. Washington, DC: U.S. Department of Energy.</li>
   856:   <li>DOE 2014a. <a href="https://www.energy.gov/sites/prod/files/2014/04/f15/amo_motors_handbook_web.pdf">Premium Efficiency Motor Selection and Application Guide: A Handbook for Industry</a>. Advanced Manufacturing Office (AMO), Washington, DC: U.S. Department of Energy.</li>
   857:   <li>DOE 2014b. <a href="https://www.energy.gov/sites/prod/files/2014/04/f15/amo_motors_sourcebook_web.pdf">Improving Motor and Drive System Performance: A Sourcebook for Industry</a>. Advanced Manufacturing Office (AMO): U.S. Department of Energy; February, 2014b.</li>
   858:   <li>EDR 2009. <a href="https://tayloreng.egnyte.com/dl/jzNGKhmF1C/EDR_VAV_Guide.pdf_">Advanced Variable Air Volume VAV System Design Guide</a>. Energy Design Resources. </li>
   859:   <li>EPA. 2008. ENERGY STAR <a href="https://www.energystar.gov/sites/default/files/buildings/tools/EPA_BUM_Full.pdf">Building Manual Chapter 8: Air Distribution Systems</a>. Washington, DC: Environmental Protection Administration. </li>
-  860:   <li>GSA 2014. <a href="https://www.nrel.gov/docs/fy14osti/61448.pdf">Synchronous and Cogged Belt Performance Assessment</a>. GSA Proving Ground Findings. Washington, DC: General Services Administration. </li>
+  860:   <li>GSA 2014. <a href="https://www.nlr.gov/docs/fy14osti/61448.pdf">Synchronous and Cogged Belt Performance Assessment</a>. GSA Proving Ground Findings. Washington, DC: General Services Administration. </li>
   861:   <li>Modera, M. 2005. <a href="https://www.researchgate.net/publication/291572887_Fixing_duct_leaks_in_commercial_buildings">Fixing Duct Leaks in Commercial Buildings</a>. ASHRAE Journal, June 2005. Atlanta, GA: ASHRAE.</li>
-  862:   <li>NLR 2015. <a href="https://www.nrel.gov/docs/fy23osti/82173.pdf">Field Test Best Practices: Air flow.</a> NLR Buildings Research. Golden, CO.</li>
+  862:   <li>NLR 2015. <a href="https://www.nlr.gov/docs/fy23osti/82173.pdf">Field Test Best Practices: Air flow.</a> NLR Buildings Research. Golden, CO.</li>
   863:   <li>NLR 2017. <a href="https://hvacresourcemap.net/">HVAC Resource Map</a>. Golden, CO.</li>
   864:   <li>Taylor, S. 2015. <a href="https://tayloreng.egnyte.com/dl/e1DzRUmHTl/ASHRAE_Journal_-_Trim_and_Respond.pdf_">Resetting Setpoints Using Trim & Respond Logic</a>. ASHRAE Journal. November 2015. Atlanta GA: ASHRAE </li>
   865:   <li>Roth, K., D. Westphalen, J. Dieckmann, D. S. Hamilton, and W. Goetzler. 2002. <a href="https://www1.eere.energy.gov/buildings/publications/pdfs/commercial_initiative/hvac_volume3_final_report.pdf">Energy Consumption Characteristics of Commercial Building HVAC Systems Volume III: Energy Savings Potential</a>. Washington, DC: U.S. Department of Energy.</li>
@@ -4815,7 +4815,7 @@ src/app/laboratories/distribution/ahu/eems/eems.component.ts:
 
 src/app/laboratories/distribution/ahu/operation/operation.component.html:
    2  
-   3: <p>Periodic evaluation of air handlers is recommended to identify efficiency measures. The evaluation generally consists of a combination of on-site observations and a more detailed testing of air handling unit (AHU) components. The <a href="https://www.nrel.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> lists a number of measures to save energy in commercial buildings by improving the operational efficiency of AHUs. These measures are summarized below; refer to the <a href="https://www.nrel.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> for more information:</p>
+   3: <p>Periodic evaluation of air handlers is recommended to identify efficiency measures. The evaluation generally consists of a combination of on-site observations and a more detailed testing of air handling unit (AHU) components. The <a href="https://www.nlr.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> lists a number of measures to save energy in commercial buildings by improving the operational efficiency of AHUs. These measures are summarized below; refer to the <a href="https://www.nlr.gov/docs/gen/fy11/50134.pdf">General Air Handling Unit Checklist</a> for more information:</p>
    4  
    5  <ul>
    6:   <li>Verifying proper operation of air dampers</li>
@@ -5023,7 +5023,7 @@ src/app/laboratories/distribution/ducting/ducting.component.html:
   100  
   101: <h2>References</h2>
   102  <ul>
-  103:   <li><a href="https://www.nrel.gov/docs/fy12osti/53352.pdf">Advanced Strategy Guideline: Air Distribution Basics and Duct Design </a>, U.S. Department of Energy</li>
+  103:   <li><a href="https://www.nlr.gov/docs/fy12osti/53352.pdf">Advanced Strategy Guideline: Air Distribution Basics and Duct Design </a>, U.S. Department of Energy</li>
   104:   <li><a href="https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/27630.pdf">Improving the Efficiency of Your Duct System</a>, U.S. Department of Energy</li>
   105:   <li><a href="https://www.energy.gov/energysaver/minimizing-energy-losses-ducts">Minimizing Energy Losses in Ducts</a>, U.S. Department of Energy</li>
   106  </ul>
@@ -5307,7 +5307,7 @@ src/app/laboratories/lab-space/building-energy-modeling/building-energy-modeling
   19: <a class="d-block well rounded clearfix" href="assets/pdf/openstudio-guide-energy-modeling-laboratory-buildings.pdf">
   20:   <img class="float-md-left img-fluid pr-md-2 pb-2" src="assets/images/os_icon.png" alt="Logo for OpenStudio, a cube wit OS on it" style="max-width: 100px">
   21:   <p><strong>Energy Modeling Laboratory Buildings with OpenStudio</strong></p>
-  22:   <p>OpenStudio is an open-source building energy modeling platform. This <a href="assets/pdf/openstudio-guide-energy-modeling-laboratory-buildings.pdf">guide</a> directs users in creating a laboratory prototype building from the "Create DOE Prototype Building" measure available on the <a href="https://bcl.nrel.gov/">Building Component Library.</a></p>
+  22:   <p>OpenStudio is an open-source building energy modeling platform. This <a href="assets/pdf/openstudio-guide-energy-modeling-laboratory-buildings.pdf">guide</a> directs users in creating a laboratory prototype building from the "Create DOE Prototype Building" measure available on the <a href="https://bcl.nlr.gov/">Building Component Library.</a></p>
   23  </a>
 
   26  <ul>
@@ -5343,7 +5343,7 @@ src/app/laboratories/lab-space/demand-control-ventilation/demand-control-ventila
   11:   <strong>Demand-controlled ventilation (DCV) is often connected to occupancy sensors in addition to pollutant sensors.</strong>
   12  </p>
   13  
-  14: <p>More info about demand control and other techniques for VAV systems can be found in the <a href="https://www.nrel.gov/docs/fy11osti/52017.pdf">Modeling Exhaust Dispersion for Specifying Acceptable Exhaust/Intake Designs</a> document. For a list of energy efficiency recommendations for designing and equipping laboratories, see <a href="https://www.pge.com/assets/pge/docs/save-energy-and-money/rebate-and-incentives/Labs_BestPractices.pdf">High Performance Laboratories</a> from PG&E.</p>
+  14: <p>More info about demand control and other techniques for VAV systems can be found in the <a href="https://www.nlr.gov/docs/fy11osti/52017.pdf">Modeling Exhaust Dispersion for Specifying Acceptable Exhaust/Intake Designs</a> document. For a list of energy efficiency recommendations for designing and equipping laboratories, see <a href="https://www.pge.com/assets/pge/docs/save-energy-and-money/rebate-and-incentives/Labs_BestPractices.pdf">High Performance Laboratories</a> from PG&E.</p>
   15  
 
   17  <ul>
@@ -5593,7 +5593,7 @@ src/app/laboratories/lab-space/exposure-control-devices/operation/operation.comp
   3  <ul>
   4:   <li>ASHRAE 110: Standard 110-2016 -- Method of Testing Performance of Laboratory Fume Hoods</li>
   5:   <li>ANSI Z9.5</li>
-  6:   <li><a href="https://www.nrel.gov/docs/fy08osti/43231.pdf">Commissioning Ventilated Containment Systems in the Laboratory</a></li>
+  6:   <li><a href="https://www.nlr.gov/docs/fy08osti/43231.pdf">Commissioning Ventilated Containment Systems in the Laboratory</a></li>
   7  </ul>
 
 src/app/laboratories/lab-space/exposure-control-devices/operation/operation.component.ts:
@@ -5880,15 +5880,15 @@ src/app/shared/components/footer/footer.component.html:
    4:     <div class="container">
    5        <div class="row">
    6          <div class="col-12 col-lg-5">
-   7:           <a href="https://www.nrel.gov/"><strong>National Laboratory of the Rockies</strong></a>
+   7:           <a href="https://www.nlr.gov/"><strong>National Laboratory of the Rockies</strong></a>
    8          </div>
    9          <div class="col col-lg-7">
   10:           <div class="d-flex flex-column flex-lg-row justify-content-lg-start global">
-  11:             <div><a href="https://www.nrel.gov/about/">About</a></div>
-  12:             <div><a href="https://www.nrel.gov/research/">Research</a></div>
-  13:             <div><a href="https://www.nrel.gov/workingwithus/">Partner with Us</a></div>
-  14:             <div><a href="https://www.nrel.gov/news/">News</a></div>
-  15:             <div><a href="https://www.nrel.gov/careers/">Careers</a></div>
+  11:             <div><a href="https://www.nlr.gov/about/">About</a></div>
+  12:             <div><a href="https://www.nlr.gov/research/">Research</a></div>
+  13:             <div><a href="https://www.nlr.gov/workingwithus/">Partner with Us</a></div>
+  14:             <div><a href="https://www.nlr.gov/news/">News</a></div>
+  15:             <div><a href="https://www.nlr.gov/careers/">Careers</a></div>
   16            </div>
 
   22  
@@ -5896,32 +5896,32 @@ src/app/shared/components/footer/footer.component.html:
   24        <div class="row">
   25          <div class="col-md-4 col-lg-5">
   26:           <div><a routerLink="/contact" routerLinkActive="active">Contact Us</a></div>
-  27:           <div class="mt-3"><a href="https://www.nrel.gov/about/visiting-nrel.html">Visit</a></div>
-  28:           <div class="mt-3"><a href="https://www.nrel.gov/news/subscribe.html">Subscribe to NLR</a></div>
+  27:           <div class="mt-3"><a href="https://www.nlr.gov/about/visiting-nlr.html">Visit</a></div>
+  28:           <div class="mt-3"><a href="https://www.nlr.gov/news/subscribe.html">Subscribe to NLR</a></div>
   29            <div class="mt-3">
   30:             <ul class="social-links list-inline">
-  31:               <li class="list-inline-item"><a href="https://www.facebook.com/nationalrenewableenergylab" aria-label="Follow NLR on Facebook"><i class="fab fa-facebook-square"><!--facebook--></i></a></li>
-  32:               <li class="list-inline-item"><a href="https://www.instagram.com/nationalrenewableenergylab/" aria-label="Follow NLR on Instagram"><i class="fab fa-instagram"><!--Instagram--></i></a></li>
-  33:               <li class="list-inline-item"><a href="https://www.linkedin.com/company/national-renewable-energy-laboratory" aria-label="Follow NLR on Linked In"><i class="fab fa-linkedin"><!--Linked In--></i></a></li>
-  34:               <li class="list-inline-item"><a href="https://www.youtube.com/user/NRELPR" aria-label="Follow NLR on YouTube"><i class="fab fa-youtube"><!--You Tube--></i></a></li>
+  31:               <li class="list-inline-item"><a href="https://www.facebook.com/nationallaboratoryoftherockies" aria-label="Follow NLR on Facebook"><i class="fab fa-facebook-square"><!--facebook--></i></a></li>
+  32:               <li class="list-inline-item"><a href="https://www.instagram.com/natlabrockies" aria-label="Follow NLR on Instagram"><i class="fab fa-instagram"><!--Instagram--></i></a></li>
+  33:               <li class="list-inline-item"><a href="https://www.linkedin.com/company/national-lab-of-the-rockies" aria-label="Follow NLR on Linked In"><i class="fab fa-linkedin"><!--Linked In--></i></a></li>
+  34:               <li class="list-inline-item"><a href="https://www.youtube.com/@nationallaboratoryoftherockies" aria-label="Follow NLR on YouTube"><i class="fab fa-youtube"><!--You Tube--></i></a></li>
   35:               <li class="list-inline-item">
-  36:                 <a href="https://twitter.com/nrel/" aria-label="Follow NLR on X"><svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
+  36:                 <a href="https://x.com/NatLabRockies" aria-label="Follow NLR on X"><svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
   37                </li>
-  38:             <li class="list-inline-item"><a href="https://www.threads.net/@nationalrenewableenergylab" aria-label="Follow NLR on Threads"><svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6
+  38:             <li class="list-inline-item"><a href="https://www.threads.net/@natlabrockies" aria-label="Follow NLR on Threads"><svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6
   39              </ul>
 
   41          </div>
   42:         <div class="col-md-8 col-lg-7 globalsecondary">
   43            <div class="row">
   44              <div class="col-sm-6 col-lg-3">
-  45:               <div class="mt-0"><a href="https://www.nrel.gov/accessibility.html">Accessibility</a></div>
-  46:               <div class="mt-3"><a href="https://www.nrel.gov/disclaimer.html">Disclaimer</a></div>
-  47:               <div class="mt-3"><a href="https://www.nrel.gov/security.html">Security and Privacy</a></div>
-  48:               <div class="mt-3"><a href="https://www.nrel.gov/webmaster.html">Site Feedback</a></div>
+  45:               <div class="mt-0"><a href="https://www.nlr.gov/accessibility.html">Accessibility</a></div>
+  46:               <div class="mt-3"><a href="https://www.nlr.gov/disclaimer.html">Disclaimer</a></div>
+  47:               <div class="mt-3"><a href="https://www.nlr.gov/security.html">Security and Privacy</a></div>
+  48:               <div class="mt-3"><a href="https://www.nlr.gov/webmaster.html">Site Feedback</a></div>
   49              </div>
   50              <div class="col-sm-6 col-lg-3">
-  51:               <div class="mt-0"><a href="https://developer.nrel.gov/">Developers</a></div>
-  52:               <div class="mt-3"><a href="https://thesource.nrel.gov/">Employees</a></div>
+  51:               <div class="mt-0"><a href="https://developer.nlr.gov/">Developers</a></div>
+  52:               <div class="mt-3"><a href="https://thesource.nlr.gov/">Employees</a></div>
   53              </div>
 
   60            <div class="col-sm-5">
@@ -5941,7 +5941,7 @@ src/app/shared/components/header/header.component.html:
    6        <div class="row">
 
    8          <div class="col-md-6 col-xl-4 order-md-2">
-   9:           <a href="https://www.nrel.gov/">
+   9:           <a href="https://www.nlr.gov/">
   10:             <div class="logo" [class.interior]="showAlternate"><img src="assets/images/nlr.png"  class="sr-only" alt="National Laboratory of the Rockies"></div>
   11            </a>
 
@@ -5957,10 +5957,10 @@ src/app/shared/components/header/header.component.html:
   22                        <form
   23                          method="get"
   24:                         class="site-searchbar-form form-inline ThunderstoneForm"
-  25:                         action="https://search4.nrel.gov/texis/search/"
+  25:                         action="https://search4.nlr.gov/texis/search/"
   26:                         id="ThunderstoneSearchForm">
   27  
-  28:                         <input type="hidden" name="pr" value="metanrel"/>
+  28:                         <input type="hidden" name="pr" value="metanlr"/>
   29                          <div class="form-group">
   30:                           <label for="query" class="sr-only">Search Site</label>
   31:                           <input
