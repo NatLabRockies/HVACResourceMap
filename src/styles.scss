@@ -100,8 +100,11 @@ a.well[href$='.pdf']::after {
   display: none;
 }
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link,
-  /*.sidenav > ul.nav > li > a:hover, .sidenav > ul.nav > li > a:focus, .sidenav > ul.nav > li.active > a, .sidenav > ul.nav > li.active > a:visited*/
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link
+/* .sidenav > ul.nav > li > a:hover, .sidenav > ul.nav > li > a:focus, .sidenav > ul.nav > li.active > a, .sidenav > ul.nav > li.active > a:visited */
 {
   background-color: #5E6A71;
   color: #fff;

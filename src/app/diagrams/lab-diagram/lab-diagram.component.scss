@@ -1,4 +1,4 @@
-$orange: #f98e2d;
+$orange:#DB9728 ;
 
 :host {
   overflow: hidden;
@@ -21,7 +21,7 @@ svg {
 }
 
 a:hover{
-  fill: #f98e2d;
+  fill: #DB9728;
   text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ a:hover{
 }
 
 .st5 {
-  fill: #BA6919;
+  fill: #DB9728;
 }
 
 .st6 {
@@ -298,56 +298,56 @@ a:hover{
 }
 
 $ids:
-  #ahu,
-  #ahu_back,
-  #ahucont,
-  #blrcont,
-  #boiler,
-  #chiller,
-  #controlcont,
-  #cooltherm,
-  #cp-outline,
-  #cp-pump,
-  #cp-valve,
-  #cp-valve,
-  #cp-valve-control,
-  #cp-valve2,
-  #d-pump1,
-  #d-pump2,
-  #d-valve,
-  #demand_control_box,
-  #diffuser1,
-  #diffuser2,
-  #disoutline,
-  #duct1-outline,
-  #duct1-outline_1_,
-  #duct1_1_,
-  #duct2-outline,
-  #exhaustoutline,
-  #exhaust_stack,
-  #fan1,
-  #fan2,
-  #hoodoutline,
-  #hottherm,
-  #lab_outline,
-  #labventlink,
-  #occ_sensor_back,
-  #steamtrap,
-  #steamtrapht,
-  #cooltower-outline,
-  #terminal1,
-  #terminal2,
-  #vav,
-  #vav_1_,
-  #vav_2_,
-  #vav_systems-outline,
-  #zone1cont,
-  #zone2cont,
-  #zone3cont,
-  #zone4cont;
+  'ahu',
+  'ahu_back',
+  'ahucont',
+  'blrcont',
+  'boiler',
+  'chiller',
+  'controlcont',
+  'cooltherm',
+  'cp-outline',
+  'cp-pump',
+  'cp-valve',
+  'cp-valve',
+  'cp-valve-control',
+  'cp-valve2',
+  'd-pump1',
+  'd-pump2',
+  'd-valve',
+  'demand_control_box',
+  'diffuser1',
+  'diffuser2',
+  'disoutline',
+  'duct1-outline',
+  'duct1-outline_1_',
+  'duct1_1_',
+  'duct2-outline',
+  'exhaustoutline',
+  'exhaust_stack',
+  'fan1',
+  'fan2',
+  'hoodoutline',
+  'hottherm',
+  'lab_outline',
+  'labventlink',
+  'occ_sensor_back',
+  'steamtrap',
+  'steamtrapht',
+  'cooltower-outline',
+  'terminal1',
+  'terminal2',
+  'vav',
+  'vav_1_',
+  'vav_2_',
+  'vav_systems-outline',
+  'zone1cont',
+  'zone2cont',
+  'zone3cont',
+  'zone4cont';
 
 @each $id in $ids {
-  #{$id}:hover {
+  ##{$id}:hover {
     fill: $orange;
     fill-opacity: 1;
     stroke: #444;
